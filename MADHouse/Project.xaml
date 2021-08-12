@@ -1,0 +1,175 @@
+﻿<Window x:Class="MADHouse.Project"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MADHouse"
+        xmlns:tools="clr-namespace:MADHouse.Tools"
+        mc:Ignorable="d"
+        Title="MADHouse"
+        WindowStartupLocation="CenterScreen"
+        Height="{Binding Source={x:Static SystemParameters.MaximizedPrimaryScreenHeight}, Converter={tools:RatioConverter}, ConverterParameter='0.9' }"
+        Width="{Binding Source={x:Static SystemParameters.MaximizedPrimaryScreenWidth}, Converter={tools:RatioConverter}, ConverterParameter='0.9' }"
+        MinHeight="540" MinWidth="960">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="1326*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Margin="0,0,-0.2,688.8" Background="#383838" Grid.ColumnSpan="3" >
+            <Menu DockPanel.Dock="Top" Background="#383838" Foreground="White" Height="34" Margin="0,0,-0.2,0">
+                <MenuItem FlowDirection="RightToLeft" Header="File" Margin="10,5,0,0" FontFamily="Franklin Gothic Book" FontSize="14" Foreground="White" HorizontalContentAlignment="Center">
+                    <MenuItem Header="New" FontFamily="Franklin Gothic Book" FontSize="14" Background="#383838" Foreground="White" Click="NewCanvas"/>
+                    <MenuItem Header="Open" FontFamily="Franklin Gothic Book" FontSize="14" Background="#383838" Foreground="White"/>
+                    <MenuItem Header="Save" FontFamily="Franklin Gothic Book" FontSize="14" Background="#383838" Foreground="White"/>
+                    <MenuItem Header="Save As" FontFamily="Franklin Gothic Book" FontSize="14" Background="#383838" Foreground="White"/>
+                    <MenuItem Header="Exit" FontFamily="Franklin Gothic Book" FontSize="14" Background="#383838" Foreground="White" Click="Exit"/>
+                </MenuItem>
+                <MenuItem FlowDirection="RightToLeft" Header="View" Margin="10,5,0,0" FontFamily="Franklin Gothic Book" FontSize="14" Foreground="White">
+                    <MenuItem Header="2D View" FontFamily="Franklin Gothic Book" FontSize="14" Foreground="White" Background="#383838"/>
+                    <MenuItem Header="3D View" FontFamily="Franklin Gothic Book" FontSize="14" Foreground="White" Background="#383838"/>
+                    <MenuItem Header="VR View" FontFamily="Franklin Gothic Book" FontSize="14" Foreground="White" Background="#383838"/>
+                </MenuItem>
+                <Button Click="Delete" FlowDirection="RightToLeft"  Margin="10,5,0,0" FontFamily="Franklin Gothic Book" FontSize="14" Foreground="White"  Background="#383838" HorizontalContentAlignment="Center">
+                    Delete
+                </Button>
+            </Menu>
+
+        </DockPanel>
+        
+        <Canvas x:Name="myCanvas" Margin="0,35,207.8,-0.2" Cursor="Pen" Grid.ColumnSpan="3">
+            <Canvas.Background>
+                <VisualBrush TileMode="Tile" Stretch="Fill" 
+						    	 Viewport="0 0 30 30" ViewportUnits="Absolute" 
+							 ViewboxUnits="Absolute">
+                    <VisualBrush.Visual>
+                        <Grid>
+                            <Rectangle Width="1" Height="0.03" Fill="#FFC8C8C8" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                            <Rectangle Height="1" Width="0.03" Fill="#FFC8C8C8" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        </Grid>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </Canvas.Background>
+
+
+        </Canvas>
+        
+        <Border x:Name="unityPanel" Margin="0,35,207.8,-0.2" Cursor="Pen" Grid.ColumnSpan="3">
+        </Border>
+
+
+
+        <Border Background="#202020" BorderBrush="Black" BorderThickness="1,1,1,1" Margin="0,35,-0.2,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="208" Height="30" Grid.Column="2">
+            <TextBlock Text="TOOLBOX" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" FontWeight="SemiBold" FontFamily="Franklin Gothic Book"></TextBlock>
+        </Border>
+        <MenuItem  x:Name="Room"  Click="Open_Menu" Margin="0,65,-0.2,0" VerticalAlignment="Top" Height="70" HorizontalAlignment="Right" Width="208" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="18" Cursor="Hand" HorizontalContentAlignment="Left" Grid.Column="2" >
+            <MenuItem.Header>
+
+                <StackPanel Orientation="Horizontal"  Width="159">
+                    <TextBlock Text="Room" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Width="56"/>
+
+                </StackPanel>
+            </MenuItem.Header>
+            <MenuItem.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Click="AddRoom_Click" Header="Add Room" Name="addRoom" Height="40" Width="200" HorizontalAlignment="Center" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="16" Cursor="Hand" >
+
+                    </MenuItem>
+                    <MenuItem Click="AddRoom_1" Header="Add Room 1" Height="40" HorizontalAlignment="Center" Width="200" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="16" Cursor="Hand" />
+                    <MenuItem Click="AddRoom_2" Header="Add Room 2" Height="40" HorizontalAlignment="Center" Width="200" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="16" Cursor="Hand" />
+                </ContextMenu>
+            </MenuItem.ContextMenu>
+        </MenuItem>
+        <MenuItem  x:Name="Window"  Click="Open_Menu" Margin="0,135,-0.2,0" VerticalAlignment="Top" Height="70" HorizontalAlignment="Right" Width="208" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="18" Cursor="Hand" HorizontalContentAlignment="Left" Grid.Column="2" >
+            <MenuItem.Header>
+
+                <StackPanel Orientation="Horizontal" Width="200">
+                    <TextBlock Text="Window" VerticalAlignment="Center" Margin="10" Width="101"/>
+
+                </StackPanel>
+            </MenuItem.Header>
+            <MenuItem.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Add Window Vertical" Name="addWindow" Height="40" Width="200" HorizontalAlignment="Center" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="16" Cursor="Hand" Click="AddWindow_vert" >
+
+                    </MenuItem>
+                    <MenuItem  Header="Add Window Horizontal" Height="40" HorizontalAlignment="Center" Width="200" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="16" Cursor="Hand" Click="AddWindow_horz" />
+
+                </ContextMenu>
+            </MenuItem.ContextMenu>
+        </MenuItem>
+        <MenuItem  x:Name="Door"  Click="Open_Menu" Margin="0,205,-0.2,0" VerticalAlignment="Top" Height="70" HorizontalAlignment="Right" Width="208" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="18" Cursor="Hand" HorizontalContentAlignment="Left" Grid.Column="2" >
+            <MenuItem.Header>
+
+                <StackPanel Orientation="Horizontal" Width="200">
+                    <TextBlock Text="Door" VerticalAlignment="Center" Margin="10" Width="101"/>
+
+                </StackPanel>
+            </MenuItem.Header>
+            <MenuItem.ContextMenu>
+                <ContextMenu>
+                    <MenuItem  Click="AddDoor" Header="Horizontal Door"  Height="40" Width="200" HorizontalAlignment="Center" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="16" Cursor="Hand"  >
+
+                    </MenuItem>
+                    <MenuItem  Header="Vertical Door" Height="40" HorizontalAlignment="Center" Width="200" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="16" Cursor="Hand" Click="AddDoor_vert" />
+
+                </ContextMenu>
+            </MenuItem.ContextMenu>
+
+        </MenuItem>
+        <MenuItem  x:Name="Stairs"  Click="Open_Menu" Margin="0,275,-0.2,0" VerticalAlignment="Top" Height="70" HorizontalAlignment="Right" Width="208" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="18" Cursor="Hand" HorizontalContentAlignment="Left" Grid.Column="2" >
+
+        </MenuItem>
+        <Border Background="#202020" BorderBrush="Black" BorderThickness="1,1,1,1" Margin="0,345,-0.2,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="208" Height="30" Grid.Column="2">
+            <TextBlock Text="PROPERTIES" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" FontWeight="SemiBold" FontFamily="Franklin Gothic Book"></TextBlock>
+        </Border>
+        <TextBlock Background="#383838" Margin="0,375,-0.2,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="208" Height="30" Grid.Column="2">
+            <TextBlock Margin="10,5,1,1" Height="20" Width="60" Foreground="White" Text="Canvas_W" FontFamily="Franklin Gothic Book"  FontSize="12" VerticalAlignment="Center"></TextBlock>
+            <TextBlock x:Name="cW" Margin="1,5,1,1" Height="20" Width="30" Foreground="White" FontFamily="Franklin Gothic Book"  FontSize="12"></TextBlock>
+            <TextBlock Margin="1,5,1,1" Height="20" Width="60" Foreground="White" Text="Canvas_H" FontFamily="Franklin Gothic Book"  FontSize="12" VerticalAlignment="Center"></TextBlock>
+            <TextBlock x:Name="cL" Margin="1,5,1,1" Height="20" Width="30" Foreground="White" FontFamily="Franklin Gothic Book"  FontSize="12"></TextBlock>
+        </TextBlock>
+        <TextBlock Margin="0,405,0.8,0" Background="#383838" VerticalAlignment="Top" Height="46" HorizontalAlignment="Right" Width="207"  Foreground="White" FontFamily="Franklin Gothic Book" FontSize="14" Cursor="Hand" Grid.Column="2" ><InlineUIContainer>
+                <Label Content="Length:" Margin="0,0,10,0" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right" Width="82" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="14" Cursor="Hand" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            </InlineUIContainer><InlineUIContainer>
+                <TextBox x:Name="Display_Length" Width="100" Height="35" VerticalAlignment="Center" KeyDown="OnKeyDownHandler" HorizontalAlignment="Right" FontFamily="Franklin Gothic Book" FontSize="14" Background="LightGray" Margin="2,5,0,0"/>
+            </InlineUIContainer><Run Text=" "/>
+        </TextBlock>
+        <TextBlock Margin="0,451,0.8,0" Background="#383838" VerticalAlignment="Top" Height="55" HorizontalAlignment="Right" Width="207"  Foreground="White" FontFamily="Franklin Gothic Book" FontSize="14" Cursor="Hand" Grid.Column="2" ><InlineUIContainer>
+                <Label Content="Width:" Margin="0,0,10,0" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right" Width="82" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="14" Cursor="Hand" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            </InlineUIContainer><InlineUIContainer>
+                <TextBox  x:Name="Display_Width" Width="100" Height="35" VerticalAlignment="Center" KeyDown="Display_Width_KeyDown" HorizontalAlignment="Right" FontFamily="Franklin Gothic Book" FontSize="14" Background="LightGray" Margin="2,5,0,0"/>
+            </InlineUIContainer><Run Text=" "/>
+        </TextBlock>
+
+        <Border Background="#202020" BorderBrush="Black" BorderThickness="1,1,1,1" Margin="0,505,-0.2,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="208" Height="30" Grid.Column="2">
+            <TextBlock Text="VIEW" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" FontWeight="SemiBold" FontFamily="Franklin Gothic Book"></TextBlock>
+        </Border>
+        <Button  Margin="0,535,-0.2,0" VerticalAlignment="Top" Height="55" HorizontalAlignment="Right" Width="208" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="18" Cursor="Hand" HorizontalContentAlignment="Center" Click="TwoD_Button_Click" Grid.Column="2">
+            2D View
+        </Button>
+        <Button  Margin="0,590,-0.2,0" VerticalAlignment="Top" Height="55" HorizontalAlignment="Right" Width="208" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="18" Cursor="Hand" HorizontalContentAlignment="Center" Click="write_coordinates" Grid.Column="2">
+            3D View
+        </Button>
+        <Button   Margin="0,645,-0.2,0" VerticalAlignment="Top" Height="55" HorizontalAlignment="Right" Width="208" BorderBrush="#FF272727" Background="#383838" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="18" Cursor="Hand" HorizontalContentAlignment="Center" Grid.Column="2" Click="write_android">
+            VR View
+        </Button>
+
+        <TextBlock Background="LightGray" Margin="966.5,665,212.8,24.8"  FontFamily="Franklin Gothic Book" FontSize="14" Grid.Column="2"><InlineUIContainer>
+                <TextBlock Margin="5,5,0,0" HorizontalAlignment="Left" Width="51" Height="17" Text="Scale:"/>
+               
+            </InlineUIContainer>
+             <TextBlock x:Name="scale"  Margin="0,5,0,0"  Width="89" Height="20"> </TextBlock>
+            
+        </TextBlock>
+
+
+        <DockPanel Background="#383838" Margin="0,700,-0.2,-0.2" Grid.ColumnSpan="3">
+
+        </DockPanel>
+
+    </Grid>
+
+</Window>
+

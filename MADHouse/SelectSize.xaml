@@ -1,0 +1,44 @@
+﻿<Window x:Class="MADHouse.SelectSize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MADHouse"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="New Project"
+        Background="#303030"
+        WindowStartupLocation="CenterScreen"
+        
+        Height="240" Width="480">
+    <Grid Margin="10" Background="#303030">
+        <TextBlock Foreground="White" Text="Project Name:" Padding="2" FontFamily="Franklin Gothic Book" FontSize="16"/>
+        <TextBox x:Name="ProjectName" Margin="155,0,0,0" Padding="2" FontFamily="Franklin Gothic Book" FontSize="16" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Land Size: " Margin="0, 30, 0, 0" Padding="2" FontFamily="Franklin Gothic Book" FontSize="16"  Foreground="White"/>
+        <Button Click="LandSizeType_Click"  Margin="155, 30, 0, 0" Padding="4, 2" BorderBrush="DarkGray" FontFamily="Franklin Gothic Book" FontSize="16" HorizontalContentAlignment="Left" VerticalAlignment="Top" Cursor="Hand">
+            <DockPanel Width="285">
+                <TextBlock x:Name="LandSizeType" Text="10 marla(s)" HorizontalAlignment="Left"/>
+                <Image Source="/images/dropdown.jpg" Margin="0, 0, 5, 0" Width="10" VerticalAlignment="Center" HorizontalAlignment="Right"></Image>
+            </DockPanel>
+        </Button>
+        <StackPanel x:Name="LandDropDown" Visibility="Hidden" Panel.ZIndex="100">
+            <Button x:Name="marla5" Content="5 marlas" Click="Marla5_Select" Margin="155, 54, 0, 0" Padding="4, 2" BorderBrush="DarkGray" Background="White" FontFamily="Rockwell" FontSize="14" HorizontalContentAlignment="Left" VerticalAlignment="Top" Cursor="Hand"/>
+            <Button x:Name="marla10" Content="10 marlas" Click="Marla10_Select" Margin="155, -1, 0, 0" Padding="4, 2" BorderBrush="DarkGray" Background="White" FontFamily="Rockwell" FontSize="14" HorizontalContentAlignment="Left" VerticalAlignment="Top" Cursor="Hand"/>
+            <Button x:Name="kanal1" Content="1 kanal" Click="Kanal1_Select" Margin="155, -1, 0, 0" Padding="4, 2" BorderBrush="DarkGray" Background="White" FontFamily="Rockwell" FontSize="14" HorizontalContentAlignment="Left" VerticalAlignment="Top" Cursor="Hand"/>
+            <Button x:Name="kanal2" Content="2 kanals" Click="Kanal2_Select" Margin="155, -1, 0, 0" Padding="4, 2" BorderBrush="DarkGray" Background="White" FontFamily="Rockwell" FontSize="14" HorizontalContentAlignment="Left" VerticalAlignment="Top" Cursor="Hand"/>
+            <Button x:Name="custom" Content="Custom" Click="Custom_Select" Margin="155, -1, 0, 0" Padding="4, 2" BorderBrush="DarkGray" Background="White" FontFamily="Rockwell" FontSize="14" HorizontalContentAlignment="Left" VerticalAlignment="Top" Cursor="Hand"/>
+        </StackPanel>
+
+        <TextBox x:Name="landWidth" Text="35" Height="25" Margin="155, 54, 193, 0" Padding="2" FontFamily="Franklin Gothic Book" FontSize="16" VerticalAlignment="Top" IsReadOnly="True" Background="LightGray"/>
+        <Border BorderBrush="DarkGray" BorderThickness="1" Background="LightGray" Height="25" Margin="250, 54, 173, 0" VerticalAlignment="Top" >
+            <TextBlock Padding="4,0,0,2" FontSize="16" Cursor="Arrow">&#215;</TextBlock>
+        </Border>
+        <TextBox x:Name="landLength" Text="65" Height="25" Margin="270, 54, 78,0" Padding="2" FontFamily="Franklin Gothic Book" FontSize="16" VerticalAlignment="Top" IsReadOnly="True" Background="LightGray"/>
+        <Border BorderBrush="DarkGray" BorderThickness="1" Background="LightGray" Height="25" Margin="365, 54, 0, 0" VerticalAlignment="Top" >
+            <TextBlock Padding="4,0,0,2" FontSize="16" Cursor="Arrow" FontFamily="Franklin Gothic Book">feet</TextBlock>
+        </Border>
+
+        <Button Background="#202020" Foreground="White" Content="CREATE PROJECT" Click="Create_Project" Height="91" BorderBrush="DarkGray" FontFamily="Franklin Gothic Book" FontSize="20" VerticalAlignment="Bottom" Cursor="Hand"/>
+    </Grid>
+</Window>

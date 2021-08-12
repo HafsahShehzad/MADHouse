@@ -1,0 +1,21 @@
+﻿<Window x:Class="MADHouse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MADHouse"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Margin="0,0,3.6,1" >
+        <Canvas.Background>
+            <ImageBrush ImageSource="images\bg.jpg" Stretch="Fill">
+                
+            </ImageBrush>
+        </Canvas.Background>
+        <TextBlock Height="95" Width="464" Canvas.Left="176" Canvas.Top="139" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Text="MADHouse" FontFamily="Franklin Gothic Book" FontSize="50" Foreground="White">
+        
+        </TextBlock>
+    </Canvas>
+
+</Window>

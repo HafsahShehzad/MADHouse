@@ -1,0 +1,23 @@
+﻿<Window x:Class="MADHouse.LandingScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MADHouse"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="LandingScreen" Height="450" Width="800"
+        MinHeight="540" MinWidth="900">
+    <Grid>
+        <Canvas Margin="0,0,-0.4,0" Background="#303030">
+            <TextBlock Height="48" Width="288" Text="MADHouse" Foreground="White" TextAlignment="Left" FontFamily="Franklin Gothic Book" FontSize="28" Canvas.Left="20" Canvas.Top="20"  Margin="0,0,0,0"/>
+            <TextBlock Height="28" Width="254" Canvas.Left="567" Canvas.Top="70" Text="Get started" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="18" VerticalAlignment="Center" TextAlignment="Left"></TextBlock>
+            <Button Height="59" Width="254" Canvas.Left="567" Canvas.Top="110" Background="#202020" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Franklin Gothic Book" FontSize="18" Click="CreateNewProject">Create Project</Button>
+            <Button Height="59" Width="254" Canvas.Left="567" Canvas.Top="190" Background="#202020" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Franklin Gothic Book" FontSize="18" Content="Open Existing Project" Click="CreateNewProject"/>
+            <Button Height="59" Width="254" Canvas.Left="567" Canvas.Top="270" Background="#202020" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Franklin Gothic Book" FontSize="18" Content="Take Image Input" />
+            <TextBlock Height="28" Width="277" Canvas.Left="20" Canvas.Top="70" Text="How to use" Foreground="White" FontFamily="Franklin Gothic Book" FontSize="18" VerticalAlignment="Center" TextAlignment="Left"/>
+        </Canvas>
+
+    </Grid>
+
+</Window>

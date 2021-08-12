@@ -1,0 +1,1064 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2020-01-03T01:09:22.779+05:00
+  initializedAtString: 2020-01-03T01:09:22.779+05:00
+  entries:
+  - path: Assets\brownish.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\brownish.mat
+    projectPath: Assets\brownish.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\brownish.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\brownish.mat.meta
+    projectPath: Assets\brownish.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\CamControl.cs
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\CamControl.cs
+    projectPath: Assets\CamControl.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\darkBrownish.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\darkBrownish.mat
+    projectPath: Assets\darkBrownish.mat
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\darkBrownish.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\darkBrownish.mat.meta
+    projectPath: Assets\darkBrownish.mat.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\gold.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\gold.mat
+    projectPath: Assets\gold.mat
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\gold.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\gold.mat.meta
+    projectPath: Assets\gold.mat.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\HouseConstructor\Room2Creator.cs
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\HouseConstructor\Room2Creator.cs
+    projectPath: Assets\HouseConstructor\Room2Creator.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\HouseConstructor\Room2Creator.cs.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\HouseConstructor\Room2Creator.cs.meta
+    projectPath: Assets\HouseConstructor\Room2Creator.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\HouseConstructor\RoomCreator.cs
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\HouseConstructor\RoomCreator.cs
+    projectPath: Assets\HouseConstructor\RoomCreator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\HouseConstructor\WindowCreator.cs
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\HouseConstructor\WindowCreator.cs
+    projectPath: Assets\HouseConstructor\WindowCreator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\LowPolyTreePack.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack.meta
+    projectPath: Assets\LowPolyTreePack.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials.meta
+    projectPath: Assets\LowPolyTreePack\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_BirchLeaves.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_BirchLeaves.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_BirchLeaves.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_BirchLeaves.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_BirchLeaves.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_BirchLeaves.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_BirchTree.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_BirchTree.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_BirchTree.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_BirchTree.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_BirchTree.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_BirchTree.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Ground.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Ground.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Ground.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Ground.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Ground.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Ground.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Leaves.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Leaves.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Leaves.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Leaves.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Leaves.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Leaves.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Mountain.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Mountain.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Mountain.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Mountain.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Mountain.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Mountain.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_OakLeaves.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_OakLeaves.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_OakLeaves.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_OakLeaves.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_OakLeaves.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_OakLeaves.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_OakTreeTrunk.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_OakTreeTrunk.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_OakTreeTrunk.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_OakTreeTrunk.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_OakTreeTrunk.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_OakTreeTrunk.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_PineNeedles.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_PineNeedles.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_PineNeedles.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_PineNeedles.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_PineNeedles.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_PineNeedles.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_PineTrunk.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_PineTrunk.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_PineTrunk.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_PineTrunk.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_PineTrunk.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_PineTrunk.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Rock01.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Rock01.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Rock01.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Rock01.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Rock01.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Rock01.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Rock02.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Rock02.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Rock02.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Rock02.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Rock02.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Rock02.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Rock03.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Rock03.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Rock03.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Rock03.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Rock03.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Rock03.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_StumpBark.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_StumpBark.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_StumpBark.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_StumpBark.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_StumpBark.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_StumpBark.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_StumpWood.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_StumpWood.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_StumpWood.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_StumpWood.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_StumpWood.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_StumpWood.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Tree.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Tree.mat
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Tree.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Materials\Mat_Tree.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Materials\Mat_Tree.mat.meta
+    projectPath: Assets\LowPolyTreePack\Materials\Mat_Tree.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models.meta
+    projectPath: Assets\LowPolyTreePack\Models.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\birchTree.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\birchTree.fbx
+    projectPath: Assets\LowPolyTreePack\Models\birchTree.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\birchTree.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\birchTree.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\birchTree.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\birchTree_leafless.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\birchTree_leafless.fbx
+    projectPath: Assets\LowPolyTreePack\Models\birchTree_leafless.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\birchTree_leafless.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\birchTree_leafless.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\birchTree_leafless.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\mountain.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\mountain.fbx
+    projectPath: Assets\LowPolyTreePack\Models\mountain.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\mountain.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\mountain.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\mountain.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\oakTree.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\oakTree.fbx
+    projectPath: Assets\LowPolyTreePack\Models\oakTree.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\oakTree.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\oakTree.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\oakTree.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\oakTree_leafless.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\oakTree_leafless.fbx
+    projectPath: Assets\LowPolyTreePack\Models\oakTree_leafless.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\oakTree_leafless.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\oakTree_leafless.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\oakTree_leafless.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\pineTree.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\pineTree.fbx
+    projectPath: Assets\LowPolyTreePack\Models\pineTree.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\pineTree.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\pineTree.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\pineTree.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\pineTree02.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\pineTree02.fbx
+    projectPath: Assets\LowPolyTreePack\Models\pineTree02.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\pineTree02.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\pineTree02.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\pineTree02.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\pineTree03.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\pineTree03.fbx
+    projectPath: Assets\LowPolyTreePack\Models\pineTree03.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\pineTree03.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\pineTree03.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\pineTree03.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\pineTree04.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\pineTree04.fbx
+    projectPath: Assets\LowPolyTreePack\Models\pineTree04.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\pineTree04.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\pineTree04.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\pineTree04.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\pineTree05.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\pineTree05.fbx
+    projectPath: Assets\LowPolyTreePack\Models\pineTree05.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\pineTree05.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\pineTree05.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\pineTree05.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rock01.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rock01.fbx
+    projectPath: Assets\LowPolyTreePack\Models\rock01.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rock01.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rock01.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\rock01.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rock02.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rock02.fbx
+    projectPath: Assets\LowPolyTreePack\Models\rock02.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rock02.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rock02.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\rock02.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rock03.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rock03.fbx
+    projectPath: Assets\LowPolyTreePack\Models\rock03.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rock03.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rock03.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\rock03.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rockGroup01.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rockGroup01.fbx
+    projectPath: Assets\LowPolyTreePack\Models\rockGroup01.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rockGroup01.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rockGroup01.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\rockGroup01.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rockGroup02.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rockGroup02.fbx
+    projectPath: Assets\LowPolyTreePack\Models\rockGroup02.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rockGroup02.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rockGroup02.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\rockGroup02.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rockGroup03.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rockGroup03.fbx
+    projectPath: Assets\LowPolyTreePack\Models\rockGroup03.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\rockGroup03.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\rockGroup03.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\rockGroup03.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\tree.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\tree.fbx
+    projectPath: Assets\LowPolyTreePack\Models\tree.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\tree.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\tree.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\tree.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\tree_leafless.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\tree_leafless.fbx
+    projectPath: Assets\LowPolyTreePack\Models\tree_leafless.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\tree_leafless.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\tree_leafless.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\tree_leafless.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\treeStump.fbx
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\treeStump.fbx
+    projectPath: Assets\LowPolyTreePack\Models\treeStump.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Models\treeStump.fbx.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Models\treeStump.fbx.meta
+    projectPath: Assets\LowPolyTreePack\Models\treeStump.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\birchTree.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\birchTree.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\birchTree.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\birchTree.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\birchTree.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\birchTree.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\birchTree_leafless.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\birchTree_leafless.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\birchTree_leafless.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\birchTree_leafless.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\birchTree_leafless.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\birchTree_leafless.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\mountain.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\mountain.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\mountain.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\mountain.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\mountain.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\mountain.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\oakTree.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\oakTree.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\oakTree.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\oakTree.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\oakTree.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\oakTree.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\oakTree_leafless.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\oakTree_leafless.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\oakTree_leafless.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\oakTree_leafless.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\oakTree_leafless.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\oakTree_leafless.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\pineTree.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\pineTree.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\pineTree.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\pineTree.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\pineTree.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\pineTree.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\pineTree02.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\pineTree02.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\pineTree02.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\pineTree02.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\pineTree02.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\pineTree02.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\pineTree03.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\pineTree03.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\pineTree03.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\pineTree03.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\pineTree03.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\pineTree03.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\pineTree04.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\pineTree04.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\pineTree04.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\pineTree04.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\pineTree04.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\pineTree04.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\pineTree05.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\pineTree05.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\pineTree05.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\pineTree05.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\pineTree05.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\pineTree05.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rock01.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rock01.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\rock01.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rock01.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rock01.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\rock01.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rock02.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rock02.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\rock02.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rock02.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rock02.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\rock02.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rock03.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rock03.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\rock03.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rock03.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rock03.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\rock03.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rockGroup01.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rockGroup01.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\rockGroup01.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rockGroup01.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rockGroup01.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\rockGroup01.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rockGroup02.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rockGroup02.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\rockGroup02.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rockGroup02.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rockGroup02.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\rockGroup02.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rockGroup03.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rockGroup03.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\rockGroup03.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\rockGroup03.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\rockGroup03.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\rockGroup03.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\tree.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\tree.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\tree.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\tree.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\tree.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\tree.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\tree_leafless.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\tree_leafless.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\tree_leafless.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\tree_leafless.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\tree_leafless.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\tree_leafless.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\treeStump.prefab
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\treeStump.prefab
+    projectPath: Assets\LowPolyTreePack\Prefabs\treeStump.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Prefabs\treeStump.prefab.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Prefabs\treeStump.prefab.meta
+    projectPath: Assets\LowPolyTreePack\Prefabs\treeStump.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\readme.txt
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\readme.txt
+    projectPath: Assets\LowPolyTreePack\readme.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\readme.txt.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\readme.txt.meta
+    projectPath: Assets\LowPolyTreePack\readme.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes.meta
+    projectPath: Assets\LowPolyTreePack\Scenes.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\demo.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\demo.meta
+    projectPath: Assets\LowPolyTreePack\Scenes\demo.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\demo.unity
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\demo.unity
+    projectPath: Assets\LowPolyTreePack\Scenes\demo.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\demo.unity.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\demo.unity.meta
+    projectPath: Assets\LowPolyTreePack\Scenes\demo.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\demo\LightingData.asset
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\demo\LightingData.asset
+    projectPath: Assets\LowPolyTreePack\Scenes\demo\LightingData.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\demo\LightingData.asset.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\demo\LightingData.asset.meta
+    projectPath: Assets\LowPolyTreePack\Scenes\demo\LightingData.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\demo\ReflectionProbe-0.exr
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\demo\ReflectionProbe-0.exr
+    projectPath: Assets\LowPolyTreePack\Scenes\demo\ReflectionProbe-0.exr
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\demo\ReflectionProbe-0.exr.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\demo\ReflectionProbe-0.exr.meta
+    projectPath: Assets\LowPolyTreePack\Scenes\demo\ReflectionProbe-0.exr.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\lineUp.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\lineUp.meta
+    projectPath: Assets\LowPolyTreePack\Scenes\lineUp.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\lineUp.unity
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\lineUp.unity
+    projectPath: Assets\LowPolyTreePack\Scenes\lineUp.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\lineUp.unity.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\lineUp.unity.meta
+    projectPath: Assets\LowPolyTreePack\Scenes\lineUp.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\lineUp\LightingData.asset
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\lineUp\LightingData.asset
+    projectPath: Assets\LowPolyTreePack\Scenes\lineUp\LightingData.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\lineUp\LightingData.asset.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\lineUp\LightingData.asset.meta
+    projectPath: Assets\LowPolyTreePack\Scenes\lineUp\LightingData.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\lineUp\ReflectionProbe-0.exr
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\lineUp\ReflectionProbe-0.exr
+    projectPath: Assets\LowPolyTreePack\Scenes\lineUp\ReflectionProbe-0.exr
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\LowPolyTreePack\Scenes\lineUp\ReflectionProbe-0.exr.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\LowPolyTreePack\Scenes\lineUp\ReflectionProbe-0.exr.meta
+    projectPath: Assets\LowPolyTreePack\Scenes\lineUp\ReflectionProbe-0.exr.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Materials.meta
+    projectPath: Assets\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Untitled-1.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Materials\Untitled-1.mat
+    projectPath: Assets\Materials\Untitled-1.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Untitled-1.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Materials\Untitled-1.mat.meta
+    projectPath: Assets\Materials\Untitled-1.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\New Terrain.asset
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\New Terrain.asset
+    projectPath: Assets\New Terrain.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\ObjectCreator.cs
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\ObjectCreator.cs
+    projectPath: Assets\ObjectCreator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\ObjectSelector.cs
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\ObjectSelector.cs
+    projectPath: Assets\ObjectSelector.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Red.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Red.mat
+    projectPath: Assets\Red.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Red.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Red.mat.meta
+    projectPath: Assets\Red.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\House.unity
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Scenes\House.unity
+    projectPath: Assets\Scenes\House.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Stylized Grass Texture.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture.meta
+    projectPath: Assets\Stylized Grass Texture.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Materials.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Materials.meta
+    projectPath: Assets\Stylized Grass Texture\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Materials\Stylize_Grass.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Materials\Stylize_Grass.mat
+    projectPath: Assets\Stylized Grass Texture\Materials\Stylize_Grass.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Materials\Stylize_Grass.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Materials\Stylize_Grass.mat.meta
+    projectPath: Assets\Stylized Grass Texture\Materials\Stylize_Grass.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Materials\Stylize_Grass_diffuse.mat
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Materials\Stylize_Grass_diffuse.mat
+    projectPath: Assets\Stylized Grass Texture\Materials\Stylize_Grass_diffuse.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Materials\Stylize_Grass_diffuse.mat.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Materials\Stylize_Grass_diffuse.mat.meta
+    projectPath: Assets\Stylized Grass Texture\Materials\Stylize_Grass_diffuse.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Scene.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Scene.meta
+    projectPath: Assets\Stylized Grass Texture\Scene.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Scene\Stylized Grass Texture.unity
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Scene\Stylized
+      Grass Texture.unity
+    projectPath: Assets\Stylized Grass Texture\Scene\Stylized Grass Texture.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Scene\Stylized Grass Texture.unity.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Scene\Stylized
+      Grass Texture.unity.meta
+    projectPath: Assets\Stylized Grass Texture\Scene\Stylized Grass Texture.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures.meta
+    projectPath: Assets\Stylized Grass Texture\Textures.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures\Vol_42_1_Ambient_Occlusion.png
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures\Vol_42_1_Ambient_Occlusion.png
+    projectPath: Assets\Stylized Grass Texture\Textures\Vol_42_1_Ambient_Occlusion.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures\Vol_42_1_Ambient_Occlusion.png.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures\Vol_42_1_Ambient_Occlusion.png.meta
+    projectPath: Assets\Stylized Grass Texture\Textures\Vol_42_1_Ambient_Occlusion.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures\Vol_42_1_Base_Color.png
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures\Vol_42_1_Base_Color.png
+    projectPath: Assets\Stylized Grass Texture\Textures\Vol_42_1_Base_Color.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures\Vol_42_1_Base_Color.png.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures\Vol_42_1_Base_Color.png.meta
+    projectPath: Assets\Stylized Grass Texture\Textures\Vol_42_1_Base_Color.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures\Vol_42_1_Height.png
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures\Vol_42_1_Height.png
+    projectPath: Assets\Stylized Grass Texture\Textures\Vol_42_1_Height.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures\Vol_42_1_Height.png.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures\Vol_42_1_Height.png.meta
+    projectPath: Assets\Stylized Grass Texture\Textures\Vol_42_1_Height.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures\Vol_42_1_Normal.png
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures\Vol_42_1_Normal.png
+    projectPath: Assets\Stylized Grass Texture\Textures\Vol_42_1_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures\Vol_42_1_Normal.png.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures\Vol_42_1_Normal.png.meta
+    projectPath: Assets\Stylized Grass Texture\Textures\Vol_42_1_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures\Vol_42_1_Roughness.png
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures\Vol_42_1_Roughness.png
+    projectPath: Assets\Stylized Grass Texture\Textures\Vol_42_1_Roughness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Stylized Grass Texture\Textures\Vol_42_1_Roughness.png.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Stylized Grass Texture\Textures\Vol_42_1_Roughness.png.meta
+    projectPath: Assets\Stylized Grass Texture\Textures\Vol_42_1_Roughness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Untitled-1.png
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Untitled-1.png
+    projectPath: Assets\Untitled-1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Untitled-1.png.meta
+    fullPath: E:\Unity\Projects\MADHouse3D\Assets\Untitled-1.png.meta
+    projectPath: Assets\Untitled-1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\manifest.json
+    fullPath: E:\Unity\Projects\MADHouse3D\Packages\manifest.json
+    projectPath: Packages\manifest.json
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: E:\Unity\Projects\MADHouse3D\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: ProjectSettings\ProjectVersion.txt
+    fullPath: E:\Unity\Projects\MADHouse3D\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: ProjectSettings\QualitySettings.asset
+    fullPath: E:\Unity\Projects\MADHouse3D\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: ProjectSettings\TagManager.asset
+    fullPath: E:\Unity\Projects\MADHouse3D\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
